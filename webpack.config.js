@@ -25,6 +25,7 @@ module.exports = {
             name: "remote1",
             filename: "remoteEntry.js",
             exposes: {
+                './SurveyTileComponent': './/src/app/survey-tile/survey-tile.component.ts',
                 './TileModule': './/src/app/tile/tile.module.ts',
             },
             shared: {
@@ -32,6 +33,8 @@ module.exports = {
                 "@angular/common": { singleton: true, strictVersion: true },
                 "@angular/common/http": { singleton: true, strictVersion: true },
                 "@angular/router": { singleton: true, strictVersion: true },
+                "bootstrap": { singleton: true, strictVersion: true },
+                "jquery": { singleton: true, strictVersion: true },
                 ...sharedMappings.getDescriptors()
             }
         }),
