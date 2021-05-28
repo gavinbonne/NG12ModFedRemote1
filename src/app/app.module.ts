@@ -4,9 +4,9 @@ import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { APP_ROUTES } from './app.routes';
+import { HealthTrackerComponent } from './health-tracker/health-tracker.component';
 import { SurveyTileModule } from './survey-tile/survey-tile.module';
 import { TileModule } from './tile/tile.module';
-import { HealthTrackerComponent } from './health-tracker/health-tracker.component';
 
 @NgModule({
     imports: [

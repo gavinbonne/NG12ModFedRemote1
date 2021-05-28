@@ -25,6 +25,7 @@ module.exports = {
             name: "remote1",
             filename: "remoteEntry.js",
             exposes: {
+                './HealthTrackerComponent': './/src/app/health-tracker/health-tracker.component.ts',
                 './SurveyTileComponent': './/src/app/survey-tile/survey-tile.component.ts',
                 './TileModule': './/src/app/tile/tile.module.ts',
             },
