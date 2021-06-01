@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { BillingComponent } from './billing.component';
 import { RouterModule } from '@angular/router';
 import { TILE_ROUTES } from './billing.routes';
+import { InfoComponent } from './info/info.component';
+import { ReviewComponent } from './review/review.component';
 
 @NgModule({
     imports: [
@@ -10,7 +12,9 @@ import { TILE_ROUTES } from './billing.routes';
         RouterModule.forChild(TILE_ROUTES)
     ],
     declarations: [
-        BillingComponent
+        BillingComponent,
+        InfoComponent,
+        ReviewComponent
     ]
 })
 export class BillingModule { }
