@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { TileComponent } from './tile.component';
+import { BillingComponent } from './billing.component';
 import { RouterModule } from '@angular/router';
-import { TILE_ROUTES } from './tile.routes';
+import { TILE_ROUTES } from './billing.routes';
 
 @NgModule({
     imports: [
@@ -10,7 +10,7 @@ import { TILE_ROUTES } from './tile.routes';
         RouterModule.forChild(TILE_ROUTES)
     ],
     declarations: [
-        TileComponent
+        BillingComponent
     ]
 })
-export class TileModule { }
+export class BillingModule { }

@@ -1,9 +1,9 @@
 import { Routes } from '@angular/router';
-import { TileComponent } from './tile.component';
+import { BillingComponent } from './billing.component';
 
 export const TILE_ROUTES: Routes = [
     {
         path: '',
-        component: TileComponent
+        component: BillingComponent
     }
 ];

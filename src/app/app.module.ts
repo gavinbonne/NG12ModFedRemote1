@@ -6,17 +6,19 @@ import { AppComponent } from './app.component';
 import { APP_ROUTES } from './app.routes';
 import { HealthTrackerComponent } from './health-tracker/health-tracker.component';
 import { SurveyTileModule } from './survey-tile/survey-tile.module';
-import { TileModule } from './tile/tile.module';
+import { BillingModule } from './billing/billing.module';
+import { ArticleTileComponent } from './article-tile/article-tile.component';
 
 @NgModule({
     imports: [
         BrowserModule,
-        TileModule,
+        BillingModule,
         RouterModule.forRoot(APP_ROUTES),
         SurveyTileModule
     ],
     declarations: [
         AppComponent,
+        ArticleTileComponent,
         HealthTrackerComponent
     ],
     providers: [],
