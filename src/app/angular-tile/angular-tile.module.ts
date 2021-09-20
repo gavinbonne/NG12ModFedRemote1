@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { SurveyTileComponent } from './survey-tile.component';
+import { AngularTileComponent } from './angular-tile.component';
 import { RouterModule } from '@angular/router';
 
 @NgModule({
@@ -9,7 +9,7 @@ import { RouterModule } from '@angular/router';
         RouterModule
     ],
     declarations: [
-        SurveyTileComponent
+        AngularTileComponent
     ]
 })
-export class SurveyTileModule { }
+export class AngularTileModule { }

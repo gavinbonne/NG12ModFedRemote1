@@ -4,22 +4,20 @@ import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { APP_ROUTES } from './app.routes';
-import { HealthTrackerComponent } from './health-tracker/health-tracker.component';
-import { SurveyTileModule } from './survey-tile/survey-tile.module';
-import { BillingModule } from './billing/billing.module';
-import { ArticleTileComponent } from './article-tile/article-tile.component';
+import { StaticAngularComponent } from './static-angular/static-angular.component';
+import { AngularTileModule } from './angular-tile/angular-tile.module';
+import { ParentModule } from './parent/parent.module';
 
 @NgModule({
     imports: [
         BrowserModule,
-        BillingModule,
+        ParentModule,
         RouterModule.forRoot(APP_ROUTES),
-        SurveyTileModule
+        AngularTileModule
     ],
     declarations: [
         AppComponent,
-        ArticleTileComponent,
-        HealthTrackerComponent
+        StaticAngularComponent
     ],
     providers: [],
     bootstrap: [AppComponent]

@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { InfoComponent } from './info.component';
+import { StaticAngularComponent } from './static-angular.component';
 
-describe('InfoComponent', () => {
-    let component: InfoComponent;
-    let fixture: ComponentFixture<InfoComponent>;
+describe('StaticAngularComponent', () => {
+    let component: StaticAngularComponent;
+    let fixture: ComponentFixture<StaticAngularComponent>;
 
     beforeEach(async () => {
         await TestBed.configureTestingModule({
-            declarations: [InfoComponent]
+            declarations: [StaticAngularComponent]
         })
             .compileComponents();
     });
 
     beforeEach(() => {
-        fixture = TestBed.createComponent(InfoComponent);
+        fixture = TestBed.createComponent(StaticAngularComponent);
         component = fixture.componentInstance;
         fixture.detectChanges();
     });

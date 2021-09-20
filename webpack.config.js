@@ -25,10 +25,9 @@ module.exports = {
             name: "remote1",
             filename: "remoteEntry.js",
             exposes: {
-                './ArticleTileComponent': './/src/app/article-tile/article-tile.component.ts',
-                './HealthTrackerComponent': './/src/app/health-tracker/health-tracker.component.ts',
-                './SurveyTileComponent': './/src/app/survey-tile/survey-tile.component.ts',
-                './BillingModule': './/src/app/billing/billing.module.ts',
+                './AngularTileComponent': './/src/app/angular-tile/angular-tile.component.ts',
+                './StaticAngularComponent': './/src/app/static-angular/static-angular.component.ts',
+                './ParentModule': './/src/app/parent/parent.module.ts',
             },
             shared: {
                 "@angular/core": { singleton: true, strictVersion: true },
