@@ -10,5 +10,5 @@ export const APP_ROUTES: Routes = [
     },
     { path: 'angular-tile', component: AngularTileComponent, pathMatch: 'full'},
     { path: 'static-angular', component: StaticAngularComponent, pathMatch: 'full'},
-    { path: '**', redirectTo: 'parent', pathMatch: 'full'}
+    { path: '**', redirectTo: '/parent', pathMatch: 'full'}
 ];

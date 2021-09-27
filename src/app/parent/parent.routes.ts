@@ -7,5 +7,5 @@ export const TILE_ROUTES: Routes = [
     { path: '', component: ParentComponent, pathMatch: 'full' },
     { path: 'child-one', component: ChildOneComponent, pathMatch: 'full' },
     { path: 'child-two', component: ChildTwoComponent, pathMatch: 'full' },
-    { path: '**', redirectTo: 'home', pathMatch: 'full' },
+    // { path: '**', redirectTo: './', pathMatch: 'full' },
 ];
